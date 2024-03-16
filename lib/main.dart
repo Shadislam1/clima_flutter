@@ -1,5 +1,6 @@
 import 'package:clima_flutter/screens/city_screen.dart';
-import 'package:clima_flutter/screens/loading_screen.dart';
+import 'package:clima_flutter/screens/location_screen.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     
     return MaterialApp(
       theme: ThemeData.dark(),
-      home: CityScreen(),
+      home: LocationScreen(),
     );
     
   }
